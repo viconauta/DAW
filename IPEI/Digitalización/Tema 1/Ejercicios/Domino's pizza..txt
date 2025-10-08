@@ -1,0 +1,10 @@
+Domino's pizza.
+   -Esta empresa se enfrento a inconvenientes en la industria de la comida rápida por la alta competencia y por apps como uber eats que realizaban la mayor parte de la entrega de comida a domicilio. Además se vio afectada por falta de precisión en el seguimiento de pedidos que generaba insatisfacción en sus clientes.
+
+   -En 2008 lanzo pizza tracker que fue una de sus innovaciones mas significativa que permitía hacer seguimiento de los pedidos en tiempo real a través de móviles y en la web, además una de sus mayores ventajas es su precisión, este tipo de innovación sirvió de ejemplo para otras cadenas de comida rápida.
+
+   -Implemento la función anyware, diseñada para dar acceso a sus productos desde cualquier plataforma, desde asistentes de voz hasta relojes inteligentes, además también ha implementado la opción de hacer pedidos desde automóviles con tecnología compatible
+
+   -Al desarrollar todo esto internamente ah evitado depender de otras app lo que permite mayor control y maximizar rentabilidad y la ha posicionado como un líder en la transformación digital.
+ 
+ 

@@ -1,0 +1,11 @@
+ant -f "E:\\Netbeans\\PR 22Sept" -Dnb.internal.action.name=run run
+init:
+Deleting: E:\Netbeans\PR 22Sept\build\built-jar.properties
+deps-jar:
+Updating property file: E:\Netbeans\PR 22Sept\build\built-jar.properties
+compile:
+run:
+Introduce un numero: 
+5
+He introducido: 5
+BUILD SUCCESSFUL (total time: 4 seconds)

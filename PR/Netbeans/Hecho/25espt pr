@@ -1,0 +1,19 @@
+ant -f "E:\\PR\\Netbeans\\25Sept pr" -Dnb.internal.action.name=run run
+init:
+Deleting: E:\PR\Netbeans\25Sept pr\build\built-jar.properties
+deps-jar:
+Updating property file: E:\PR\Netbeans\25Sept pr\build\built-jar.properties
+Warning: pkg25sept\pr\Pr.java modified in the future.
+Compiling 1 source file to E:\PR\Netbeans\25Sept pr\build\classes
+compile:
+run:
+Seleccione un numero
+26
+Seleccione el segundo numero
+4
+26 + 4 = 30
+26 - 4 = 22
+26 * 4 = 104
+26 / 4 = 6 Resto: 2
+El resto de 26 / 4 = 2
+BUILD SUCCESSFUL (total time: 11 seconds)

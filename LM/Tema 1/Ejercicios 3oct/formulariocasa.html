@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+    <meta charset="utf-8">
+    <head>
+        <title>formulario accesible</title>
+    </head>
+    <body>
+        <h1>Formulario accesible</h1>
+        <form action="#" method="get">
+            <fieldset>
+                <legend>
+                    Datos
+                </legend>
+                <label for="name">Nombre</label>
+                <input type="text" placeholder="Escriba su nombre" required>
+
+                <label for="email">Email</label>
+                <input for="email" placeholder="Escriba su email" required>
+
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" cols="40" rows="4" placeholder="Escriba aqui su texto" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </fieldset>
+        </form>
+    </body>
+</html>
