@@ -132,7 +132,7 @@ public class PrruebaClase {
                 }
                 System.out.println("El numero es " + num);*/
                 //Calculadora ++ con bucle
-                System.out.println("Bienvenido a la calculadora de vico pusle cualquier valor del 1 al 9 para empezar");
+                /*System.out.println("Bienvenido a la calculadora de vico pusle cualquier valor del 1 al 9 para empezar");
                 int selector = sc.nextInt();
                 boolean numvalid = selector >= 0 && selector <= 9;
                 while(numvalid)    
@@ -182,7 +182,21 @@ public class PrruebaClase {
                             break;
                     }
                     System.out.println("Gracias por utilizar la calculadora de viconauta, vuelva pronto");
+                }*/
+            //Suma de pares
+            System.out.println("Introduce 2 numeros:");
+            int num = sc.nextInt();
+            int num2 = sc.nextInt();
+            int suma = 0;
+            //bucle
+            for(int i = num; i <= num2; i++){
+                int resultado = i % 2;
+                if(resultado == 0){
+                    suma += i;
                 }
+                //impresion en pantalla del resultado
+                System.out.println("La suma es: " + suma);
+            }
                        
         }
     }
