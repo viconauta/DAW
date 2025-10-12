@@ -6,18 +6,70 @@
         <title>Formulario</title>
     </head>
     <body>
-        <form action="#" method="get">
-            <filedset>
-                <legend>Datos personales</legend>
-                <label for="nombre">Nombre</label>
-                <input type="text" name="nombre" placeholder="Nombre" aria-describedby required>
+        <section>
+            <form action="#" method="get">
+                <div>    
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" placeholder="Escriba su nombre" aria-describedby required>
 
-                <label for="ciudad">Ciudad</label>
-                <input type="text" name="ciudad" placeholder="Ciudad" aria-describedby required>
+                        <label for="apellido">Apellidos</label>
+                        <input type="text" name="apellido" placeholder="Escriba sus apellidos" aria-describedby required>
 
-                <label for="telefono">Numero de telefono</label>
-                <input type="tel" name="telefono" placeholder="Numero de telefono" aria-describedby required>
-            </filedset>
-        </form>
+                        <label for="nacimiento">Fecha de nacimiento</label>
+                        <input type="date" name="nacimiento" aria-describedby required><br>
+
+                        <label for="id">Identificacion</label><br>
+                        <label for="id">DNI</label>
+                        <input type="radio" name="id" value="id"><br>
+                        <label for="id">NIF</label>
+                        <input type="radio" name="id" value="id"><br>
+                        <label for="id">Pasaporte</label>
+                        <input type="radio" name="id" value="id"><br>
+                        <label for="id">Numero de identificacion</label>
+                        <input type="number" name="id" placeholder="Escriba su numero de identificacion" aria-describedby required><br>
+
+                        <label for="number">Prefijo</label>
+                            <select>
+                                <option value="fr">Francia +33</option>
+                                <option value="es">España +34</option>
+                                <option value="port">Portugal +351</option>
+                            </select>
+                            <input type="tel" name="tel" placeholder="Escriba su numero de telefono" aria-describedby required>
+                    </fieldset>
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>Direccion</legend>
+                        <label for="pais">Pais</label>
+                        <select name="pais">
+                            <option value="es">España</option>
+                            <option value="fr">Francia</option>
+                            <option value="port">Portugal</option>
+                        </select>
+
+                        <label for="ciudad">Ciudad</label>
+                        <input type="text" name="ciudad" placeholder="Ciudad" aria-describedby required>
+
+                        <label for="direccion">Direccion</label>
+                        <input type="text" name="direccion" placeholder="Escriba su direccion completa" aria-describedby required>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Informacion adicional</legend>
+                        <label for="mensajes">¿Que aplicacion de mensajeria utiliza?</label>
+                        <select name="mensajes">    
+                            <option value="wat">Whatsapp</option>
+                            <option value="dis">Discord</option>
+                            <option value="ins">Instagram</option>
+                        </select>
+                        <textarea cols="30" rows="4" placeholder="Escribe aqui informacion adicional" aria-describedby></textarea>
+                        <p>Escoja su color de calcetines para el inicio de curso:</p>
+                        <input type="color">
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
+        </section>
     </body>
     </html>
