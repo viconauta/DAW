@@ -197,7 +197,8 @@ public class PrruebaClase {
                 //impresion en pantalla del resultado
                 System.out.println("La suma es: " + suma);
             }
-                       
+                  
+            System.out.println("Cambio Pablo");
         }
     }
     
